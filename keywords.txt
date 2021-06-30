@@ -24,3 +24,5 @@ readStringUntil	KEYWORD2
 parseInt	KEYWORD2
 parseFloat	KEYWORD2
 setTimeout	KEYWORD2
+tdPrint	KEYWORD2
+tdPrintln	KEYWORD2

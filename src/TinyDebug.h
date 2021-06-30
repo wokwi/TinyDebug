@@ -25,4 +25,12 @@ class TinyDebug : public Stream
 
 extern TinyDebug Debug;
 
+/* The following functions do not use any SRAM, and only take about 30 bytes of Flash space.
+   You can use them if you are short in SRAM or Flash program space.
+*/
+extern void tdPrint(char *message);
+extern void tdPrint(const __FlashStringHelper *message);
+extern void tdPrintln(char *message);
+extern void tdPrintln(const __FlashStringHelper *message);
+
 #endif
