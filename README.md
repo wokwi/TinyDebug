@@ -2,7 +2,7 @@
 
 > ATtiny85 Serial-like debug interface for the Wokwi.com simulator.
 
-Use this library to log debug information from your code while running ATtiny85 projects on the [Wokwi Arduino Simulator](https://wokwi.com). It provides an interface similiar to the familiar `Serial` object.
+Use this library to log debug information from your code while running ATtiny85 projects on the [Wokwi Arduino Simulator](https://wokwi.com). It provides an interface similar to the familiar `Serial` object.
 
 You can keep it when running your code on a physical ATtiny85 chip, and the debug prints will simply be ignored without affecting the rest of your program. This library consumes about 30 bytes of RAM, used by the Stream object instance.
 
